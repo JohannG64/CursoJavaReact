@@ -1,0 +1,219 @@
+0
+1
+00:00:01,940 --> 00:00:03,700
+Welcome back.
+1
+
+2
+00:00:03,720 --> 00:00:07,910
+In this step, we will want to help you get quickly started with the course.
+2
+
+3
+00:00:08,030 --> 00:00:12,620
+The first thing I would want to do is to congratulate you on making a great choice.
+3
+
+4
+00:00:12,620 --> 00:00:15,710
+Now let's get down to getting started with the course.
+4
+
+5
+00:00:15,890 --> 00:00:21,080
+The first thing you would need to do, is to bookmark the github repository of the course.
+5
+
+6
+00:00:21,110 --> 00:00:24,960
+You'll find a link to it in the resources section of the video you're watching right now.
+6
+
+7
+00:00:25,190 --> 00:00:32,120
+You just have to hover over to the left top corner of the screen, and you should see resources, and a link
+7
+
+8
+00:00:32,300 --> 00:00:33,800
+to the repository.
+8
+
+9
+00:00:33,800 --> 00:00:40,640
+Just click it, launch the GitHub repository, and bookmark the URL. The repository contains links to all
+9
+
+10
+00:00:40,640 --> 00:00:42,430
+the installation guides we use,
+10
+
+11
+00:00:42,470 --> 00:00:46,880
+step-by-step details of the course, and also the source code.
+11
+
+12
+00:00:46,880 --> 00:00:52,250
+Also present is the source code at various intervals of the course.
+12
+
+13
+00:00:52,250 --> 00:00:55,560
+For example, let's pick up one of these files from here.
+13
+
+14
+00:00:55,550 --> 00:01:00,890
+You'd see that this complete backup is present as one single file.
+14
+
+15
+00:01:00,890 --> 00:01:05,390
+This acts as a reference if you face a problem during this course.
+15
+
+16
+00:01:05,450 --> 00:01:10,340
+If you're having a problem with the map method, and you're unable to work out the syntax, all that you
+16
+
+17
+00:01:10,340 --> 00:01:16,250
+need to do is to go to one of the backups and find out how it's done. You just need to search for
+17
+
+18
+00:01:16,250 --> 00:01:20,060
+todos.map, and you'll be able to find how it should be done
+18
+
+19
+00:01:20,090 --> 00:01:24,160
+The first sections of the course focus extensively on React.
+19
+
+20
+00:01:24,200 --> 00:01:29,530
+The tools that you need for that section are npm and Visual Studio Code.
+20
+
+21
+00:01:29,540 --> 00:01:35,630
+If you go to the homepage of the GitHub repository and search for installation guides, you'll see a playlist
+21
+
+22
+00:01:35,780 --> 00:01:40,230
+which will help you to install NodeJS and Visual Studio Code.
+22
+
+23
+00:01:40,250 --> 00:01:44,100
+This playlist contains three steps: 1) Installing NodeJS and npm
+23
+
+24
+00:01:44,240 --> 00:01:48,400
+2) A quick introduction to npm, as well as 3) installing Visual Studio Code.
+24
+
+25
+00:01:48,440 --> 00:01:52,680
+You can install Java, Eclipse and the embedded Maven in Eclipse,
+25
+
+26
+00:01:52,730 --> 00:01:58,220
+when we get to the Spring Boot section of the course a little later. For now, we would recommend that
+26
+
+27
+00:01:58,310 --> 00:02:05,360
+you pause the video in here, and install NodeJS and Visual Studio code. You can use this playlist watch
+27
+
+28
+00:02:05,360 --> 00:02:08,280
+it and install those two tools.
+28
+
+29
+00:02:08,420 --> 00:02:14,300
+If you have successfully installed the NodeJS and Visual  Studio Code, you're ready to rock the React
+29
+
+30
+00:02:14,470 --> 00:02:15,180
+world.
+30
+
+31
+00:02:15,320 --> 00:02:22,140
+If you're a Java developer looking at front-end code for the first time, the first few steps can be overwhelming.
+31
+
+32
+00:02:22,280 --> 00:02:24,190
+You'll be using a new language.
+32
+
+33
+00:02:24,270 --> 00:02:25,850
+You'll be using a new IDE, 
+33
+
+34
+00:02:25,850 --> 00:02:31,790
+Visual Studio Code, and you'll be using a new framework React, and will be using something called
+34
+
+35
+00:02:31,790 --> 00:02:34,660
+create-react-app, which is a new tool.
+35
+
+36
+00:02:34,700 --> 00:02:40,940
+The first few steps contain a little bit of theory, to introduce you to the various parts of developing
+36
+
+37
+00:02:40,940 --> 00:02:43,130
+modern javascript applications.
+37
+
+38
+00:02:43,130 --> 00:02:48,530
+Once you get to the second section of the course, you will be spending 95 percent of the time getting
+38
+
+39
+00:02:48,530 --> 00:02:50,130
+your hands dirty.
+39
+
+40
+00:02:50,210 --> 00:02:55,540
+The recommended approach to follow the course, is to take the steps one at a time.
+40
+
+41
+00:02:55,610 --> 00:02:57,290
+Do them in the order,
+41
+
+42
+00:02:57,290 --> 00:02:59,180
+They are present  in the course.
+42
+
+43
+00:02:59,180 --> 00:03:02,660
+We'll talk about the remaining sections of the course, when we get to them.
+43
+
+44
+00:03:02,660 --> 00:03:08,240
+Let's get started with understanding the application architecture in the next step. Until then. bye bye!

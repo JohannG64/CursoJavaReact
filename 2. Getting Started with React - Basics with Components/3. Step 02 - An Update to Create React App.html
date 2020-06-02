@@ -1,0 +1,27 @@
+<p>There are two kinds of components in react - Function and Class.</p><p><br></p><p><strong>Create React App - Recent Update</strong></p><p>App.js is no longer created as Class Component. It is switched to Function Component.</p><p>Here on, in the course, we use App.js as a Class Component. </p><p><br></p><p><strong>Change You need to Make in Next Step in Visual Studio Code</strong></p><p>Replace App.js with code below:</p><pre class="prettyprint linenums">import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      &lt;div className="App"&gt;
+        &lt;header className="App-header"&gt;
+          &lt;img src={logo} className="App-logo" alt="logo" /&gt;
+          &lt;p&gt;
+            Edit &lt;code&gt;src/App.js&lt;/code&gt; and save to reload.
+        &lt;/p&gt;
+          &lt;a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          &gt;
+            Learn React
+        &lt;/a&gt;
+        &lt;/header&gt;
+      &lt;/div&gt;
+    );
+  }
+}
+export default App;</pre><p><br></p>

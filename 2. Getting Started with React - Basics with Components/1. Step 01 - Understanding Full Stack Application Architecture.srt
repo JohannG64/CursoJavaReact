@@ -1,0 +1,274 @@
+0
+1
+00:00:01,420 --> 00:00:02,230
+Welcome back.
+1
+
+2
+00:00:02,230 --> 00:00:08,300
+I'm excited to help you learn full stack application development with React and Spring Boot.
+2
+
+3
+00:00:08,380 --> 00:00:13,360
+And I'm sure you are as excited as I am! In this step,
+3
+
+4
+00:00:13,360 --> 00:00:16,450
+let's discuss the high level architecture of the application 
+4
+
+5
+00:00:16,490 --> 00:00:18,980
+we are going to build in this course.
+5
+
+6
+00:00:19,010 --> 00:00:25,720
+Let's start with understanding the basic functionality of the application, that we are going to build.
+6
+
+7
+00:00:25,840 --> 00:00:29,530
+We are going to build a Todo Management Application.
+7
+
+8
+00:00:29,530 --> 00:00:31,870
+Everybody has things that they want to do,
+8
+
+9
+00:00:31,870 --> 00:00:32,890
+they want to learn.
+9
+
+10
+00:00:33,040 --> 00:00:38,860
+You want to learn how to develop a full stack application with React! You can manage all of them in
+10
+
+11
+00:00:38,860 --> 00:00:40,900
+this Todo management application.
+11
+
+12
+00:00:40,900 --> 00:00:41,980
+You can add a todo,
+12
+
+13
+00:00:41,980 --> 00:00:45,630
+You can delete a todo, and also update a todo as well.
+13
+
+14
+00:00:45,770 --> 00:00:51,370
+Other than that, it will also have the authentication features, typically the log in and log out capabilities.
+14
+
+15
+00:00:51,370 --> 00:00:56,740
+Let's now shift our attention to what the architecture of the application that we are going to develop
+15
+
+16
+00:00:56,980 --> 00:01:00,280
+What we are going to develop is a full stack application.
+16
+
+17
+00:01:00,280 --> 00:01:05,350
+When we talk about a full stack application, we are talking about a front-end application, which is talking
+17
+
+18
+00:01:05,350 --> 00:01:08,960
+to a backend API, or  a REST web service.
+18
+
+19
+00:01:09,310 --> 00:01:15,690
+We are going to use React to build the front end part. React is a front end View framework, 
+19
+
+20
+00:01:15,700 --> 00:01:18,820
+and it makes it easy to develop front end applications.
+20
+
+21
+00:01:18,820 --> 00:01:22,710
+We would be using modern Javascript. If you're not familiar with modern Javascript,
+21
+
+22
+00:01:22,760 --> 00:01:24,200
+that's not a problem at all.
+22
+
+23
+00:01:24,220 --> 00:01:30,100
+We would make sure that you are sufficiently introduced to the modern Javascript concepts, before we
+23
+
+24
+00:01:30,100 --> 00:01:35,550
+would use them in the codes. To build the RESTful API or RESTful services in the back end,
+24
+
+25
+00:01:35,590 --> 00:01:38,380
+we'll be using Spring Boot framework.
+25
+
+26
+00:01:38,380 --> 00:01:44,320
+We'll be using Java as the programming language.  Spring Boot is the number one Java framework to build
+26
+
+27
+00:01:44,320 --> 00:01:51,010
+RESTful APIs and micro services. We will create multiple RESTful services for authentication, as well as
+27
+
+28
+00:01:51,010 --> 00:01:54,340
+todo management.As far as authentication is concerned,
+28
+
+29
+00:01:54,460 --> 00:02:02,890
+we will start with basic authentication, and also discuss about how you can use JWTs, or JSON  web
+29
+
+30
+00:02:03,010 --> 00:02:05,530
+tokens for authentication.
+30
+
+31
+00:02:05,530 --> 00:02:11,770
+We will use the spring security framework to build authentication around all the API, that we are going
+31
+
+32
+00:02:11,770 --> 00:02:14,590
+to build. Before we move on to the next step,
+32
+
+33
+00:02:14,710 --> 00:02:17,110
+let's discuss an important question.
+33
+
+34
+00:02:17,270 --> 00:02:21,070
+You're talking about building full stack applications.
+34
+
+35
+00:02:21,070 --> 00:02:24,510
+Why should you really build a full stack application?
+35
+
+36
+00:02:24,520 --> 00:02:27,480
+Why should you create a separate back end, and a  separate front end.
+36
+
+37
+00:02:27,480 --> 00:02:30,980
+And there is a lot of complexity associated with this:
+37
+
+38
+00:02:31,060 --> 00:02:32,610
+You need multiple languages,
+38
+
+39
+00:02:32,620 --> 00:02:35,650
+You need multiple frameworks like Spring Boot, React., 
+39
+
+40
+00:02:35,680 --> 00:02:37,230
+You need to learn all of that.
+40
+
+41
+00:02:37,270 --> 00:02:39,280
+Why should you really do that?
+41
+
+42
+00:02:39,280 --> 00:02:45,880
+The answer to that question is that you would want to create a flexible architecture, an architecture
+42
+
+43
+00:02:45,910 --> 00:02:50,290
+which can be extended to meet your future needs.
+43
+
+44
+00:02:50,290 --> 00:02:57,580
+Let's imagine you want to develop a native mobile application in future, let's say an iPhone app or an
+44
+
+45
+00:02:57,640 --> 00:02:59,680
+Android application.
+45
+
+46
+00:02:59,680 --> 00:03:07,390
+Maybe you'd want to connect the application to Internet of Things devices IoT devices. In such kind
+46
+
+47
+00:03:07,450 --> 00:03:09,130
+of situations,
+47
+
+48
+00:03:09,130 --> 00:03:17,920
+We can reuse the exposed backend API.  The full stack application, with the separate back end API or
+48
+
+49
+00:03:17,930 --> 00:03:25,210
+the RESTful API, will give us more options to extend our architecture, and create different applications
+49
+
+50
+00:03:25,420 --> 00:03:27,460
+for different devices.
+50
+
+51
+00:03:27,580 --> 00:03:32,760
+In this quick step,  we looked at the architecture of the application that we are going to create.
+51
+
+52
+00:03:32,760 --> 00:03:39,910
+We create a React front-end app talking to a RESTful back end API, build on top of Spring Boot.
+52
+
+53
+00:03:40,060 --> 00:03:44,280
+We also discussed why we build full stack applications.
+53
+
+54
+00:03:44,350 --> 00:03:45,940
+I'll see you in the next step.
+54
+
+55
+00:03:46,030 --> 00:03:46,950
+Until then, bye bye!

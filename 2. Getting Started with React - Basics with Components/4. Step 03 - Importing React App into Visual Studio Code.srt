@@ -1,0 +1,389 @@
+0
+1
+00:00:02,320 --> 00:00:03,820
+Welcome back.
+1
+
+2
+00:00:03,820 --> 00:00:08,380
+In the previous step, we launched up our first React app in the browser.
+2
+
+3
+00:00:08,380 --> 00:00:09,550
+Isn't that cool!
+3
+
+4
+00:00:09,550 --> 00:00:10,950
+Let's take a step further.
+4
+
+5
+00:00:10,950 --> 00:00:17,260
+In this particular step let's try and make a small change to this React app, and see how to get that
+5
+
+6
+00:00:17,260 --> 00:00:19,600
+change rendered in the browser.
+6
+
+7
+00:00:19,600 --> 00:00:26,470
+What we do is we will use Visual Studio Code as the IDE. Let's now launch the application in Visual
+7
+
+8
+00:00:26,470 --> 00:00:30,370
+Studio Code, during the installation guide section of this course.
+8
+
+9
+00:00:30,490 --> 00:00:35,550
+You have already installed Visual Studio code. With the launch of Visual Studio Code,
+9
+
+10
+00:00:35,560 --> 00:00:37,540
+This is what you would see.
+10
+
+11
+00:00:37,540 --> 00:00:42,610
+You'd see that we have actually worked on a number of projects recently to make sure that this code
+11
+
+12
+00:00:42,640 --> 00:00:44,390
+is perfect.
+12
+
+13
+00:00:44,410 --> 00:00:49,120
+The other things that you see in here are help and the learned stuff.
+13
+
+14
+00:00:49,120 --> 00:00:54,490
+I would recommend you to spend some time with the learn stuff, to familiarize yourself with the Visual
+14
+
+15
+00:00:54,490 --> 00:00:56,420
+Studio Code IDE.
+15
+
+16
+00:00:56,530 --> 00:01:03,010
+There are a lot of things that you can customize with these IDE, but now would want to open up our
+16
+
+17
+00:01:03,010 --> 00:01:08,800
+project in Visual Studio Code.There are two ways you can do that: one is open folder.
+17
+
+18
+00:01:08,860 --> 00:01:14,170
+So once you click open folder, you can navigate to the folder where your project is, and you can open
+18
+
+19
+00:01:14,170 --> 00:01:14,730
+it.
+19
+
+20
+00:01:14,740 --> 00:01:17,620
+The other option is drag and drop.
+20
+
+21
+00:01:17,620 --> 00:01:21,310
+So I've created todo-app in this specific folder.
+21
+
+22
+00:01:21,310 --> 00:01:25,940
+I can drag it and directly drop it in here.
+22
+
+23
+00:01:26,140 --> 00:01:31,390
+Once you drag the folder in there,  Visual Studio Code would open up that particular project.
+23
+
+24
+00:01:31,390 --> 00:01:36,820
+You can see the different folders from that specific project, and other files which are present in there
+24
+
+25
+00:01:36,970 --> 00:01:38,200
+as well.
+25
+
+26
+00:01:38,200 --> 00:01:42,730
+Now let's pick up one of these files package.json.  Let's not worry about what the content of this
+26
+
+27
+00:01:42,730 --> 00:01:44,600
+file is, for now.
+27
+
+28
+00:01:44,620 --> 00:01:47,990
+Now I would want to see this in full screen.
+28
+
+29
+00:01:48,000 --> 00:01:55,050
+How can I do that? The way you can do that is by toggling the explorer bar or by using a control-B, or
+29
+
+30
+00:01:55,050 --> 00:01:55,940
+a command-B.
+30
+
+31
+00:01:56,160 --> 00:01:59,910
+This is very important because whenever you are working on a file you would want to actually work in
+31
+
+32
+00:01:59,910 --> 00:02:03,480
+fullscreen mode, and that's the reason why you wanted to cover it up.
+32
+
+33
+00:02:03,480 --> 00:02:09,330
+The first thing that we teach as part of our IDE is : Control B or command B is the shortcut to actually
+33
+
+34
+00:02:09,330 --> 00:02:11,240
+maximize this window.
+34
+
+35
+00:02:11,250 --> 00:02:15,240
+The other thing you can do is also to toggle the explorer back.
+35
+
+36
+00:02:15,570 --> 00:02:20,670
+So what are you are testing in here is called the Explorer bar, where you can actually navigate through all
+36
+
+37
+00:02:20,670 --> 00:02:25,250
+the files folders and everything related to your project.
+37
+
+38
+00:02:25,260 --> 00:02:29,720
+There are a lot of other features which are present in Visual Studio code.
+38
+
+39
+00:02:29,820 --> 00:02:31,440
+You can search for a file.
+39
+
+40
+00:02:31,440 --> 00:02:36,730
+You can look at your source control, I mean if we actually put it in a Git repository or something.
+40
+
+41
+00:02:36,870 --> 00:02:42,440
+You can actually check which files are committed,  which are not -  all that stuff in total control in here.
+41
+
+42
+00:02:42,510 --> 00:02:49,650
+You can debug, as well as there are a number of extensions you can add on top of Visual Studio code. You
+42
+
+43
+00:02:49,650 --> 00:02:56,820
+can check all that stuff on the left hand side bar, which is present in here. For now,
+43
+
+44
+00:02:56,910 --> 00:03:02,310
+let's not worry about all of them. Let's focus on actually learning React. Now that we have the application
+44
+
+45
+00:03:02,310 --> 00:03:09,240
+opened up in the IDE, let's make a couple of changes. I'll open up the source folder and the public folder.
+45
+
+46
+00:03:09,570 --> 00:03:15,480
+The public folder has something called index.html, which is actually the page which is loaded
+46
+
+47
+00:03:15,480 --> 00:03:18,930
+up when we type in localhost:3000 in the browser.
+47
+
+48
+00:03:18,930 --> 00:03:25,430
+This index.html contains a title element. You can see that the title is React App in here.
+48
+
+49
+00:03:25,460 --> 00:03:27,060
+Let's make a small change.
+49
+
+50
+00:03:27,060 --> 00:03:32,120
+Let's call this Todo Application,  or even further,
+50
+
+51
+00:03:32,130 --> 00:03:35,150
+You can call this My Todo Application.
+51
+
+52
+00:03:35,370 --> 00:03:40,960
+You'd see that the changes immediately reflected on the browser.
+52
+
+53
+00:03:41,100 --> 00:03:41,450
+Right.
+53
+
+54
+00:03:41,550 --> 00:03:44,010
+So the title comes from index.html.
+54
+
+55
+00:03:44,100 --> 00:03:45,960
+That's what we understood right.
+55
+
+56
+00:03:46,320 --> 00:03:51,360
+The App.js is where all the rest of the content of the page is coming from.
+56
+
+57
+00:03:51,370 --> 00:03:57,570
+So inside the source there is a file called App.js,  and this contains all the stuff you are seeing in
+57
+
+58
+00:03:57,570 --> 00:03:57,910
+here.
+58
+
+59
+00:03:57,930 --> 00:04:01,910
+So you can see that there is a logo which is being put and it says.
+59
+
+60
+00:04:01,980 --> 00:04:05,370
+Edit src/App.js. I'll save it and I will do a reload.
+60
+
+61
+00:04:05,400 --> 00:04:10,380
+So what I'll do is now I'll remove all this content which is present in here.
+61
+
+62
+00:04:10,410 --> 00:04:14,110
+Let's remove the header which is present in the here and let's save it.
+62
+
+63
+00:04:15,060 --> 00:04:20,170
+Let's see if the change reflects. Yep, the change reflects immediately. To make it easy.
+63
+
+64
+00:04:20,190 --> 00:04:21,870
+I'll say My Hello
+64
+
+65
+00:04:21,900 --> 00:04:24,560
+World, and save it.
+65
+
+66
+00:04:25,010 --> 00:04:29,160
+Now you'd see that the change is reflected in the browser.
+66
+
+67
+00:04:29,250 --> 00:04:29,800
+Now what?
+67
+
+68
+00:04:29,950 --> 00:04:35,740
+What's the magic that is happening here, is that the change in index.html is getting reflected, App.js
+68
+
+69
+00:04:35,770 --> 00:04:41,730
+is getting reflected! All that magic is happening because of the create-react-app.
+69
+
+70
+00:04:41,740 --> 00:04:48,610
+When we build the application with create-react-app and we started using npm start, automatically
+70
+
+71
+00:04:48,610 --> 00:04:51,080
+It would keep scanning your code for changes.
+71
+
+72
+00:04:51,100 --> 00:04:58,420
+So as soon as a code change happens, it is automatically built and it is rendered to the browser.
+72
+
+73
+00:04:58,420 --> 00:05:02,410
+In this step we imported the project into our IDE.
+73
+
+74
+00:05:02,410 --> 00:05:06,850
+Visual Studio Code,  and we also made a couple of modifications to it, and saw that they were
+74
+
+75
+00:05:06,850 --> 00:05:09,010
+immediately rendered in the browser.
+75
+
+76
+00:05:09,190 --> 00:05:15,520
+In the next step we would start looking at the individual folders, and the different files which are
+76
+
+77
+00:05:15,520 --> 00:05:16,990
+present in here.
+77
+
+78
+00:05:17,500 --> 00:05:19,280
+I'll see you in the next step. Until then, bye-bye!
